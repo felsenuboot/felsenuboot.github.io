@@ -8,7 +8,7 @@ author: felix
 math: true
 ---
 
-{% include embed/{bilibili}.html id='{BV1Q44y1B7Wf}' %}
+{% include embed/bilibili.html id='BV1Q44y1B7Wf' %}
 
 > Example line for prompt.
 {: .prompt-info }
