@@ -1,15 +1,25 @@
 ---
 layout: post
-title: Start
-date: 2025-10-15 11:35:00 +0200
-categories: [Article, Meta]
-tags: [index, intro, writing]
+title: "Welcome to My Site"
+date: 2025-10-15 12:00:00 +0200
+categories: [Article, Test]
+tags: [intro, chirpy, markdown]
 author: felix
 ---
 
-Schnellzugriff:
-- [Career](/categories/career/)
-- [Projects](/categories/projects/)
-- [Volunteering](/categories/volunteering/)
-- [Education](/categories/education/)
-- [Alle Tags](/tags/)
+> **Test Post** 🧩
+{: .prompt-info }
+
+This is a **test blog post** to verify that the Jekyll Chirpy theme renders correctly.
+
+You can test:
+- Markdown styling (bold, italics, code, lists)
+- Callouts (`prompt-info`, `prompt-tip`, etc.)
+- Math expressions, tables, and code highlighting
+- Links to categories and tags
+
+### Example Code
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```
