@@ -25,6 +25,22 @@ Jekyll site. The following is a list of targets:
 To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
 latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
+## Local Development
+
+### Quick Start
+1. **Install dependencies**: `bundle`
+2. **Start development server**: `bundle exec jekyll serve` (keep running in a separate terminal tab)
+3. **Create new draft**: `bundle exec jekyll draft "Your Post Title"`
+4. **Publish draft**: `bundle exec jekyll publish _drafts/your-post-title.md`
+
+The site will be available at `http://localhost:4000` with live reload enabled.
+
+### Alternative Development Commands
+- Custom host: `bash tools/run.sh -H 0.0.0.0`
+- Production mode: `bash tools/run.sh -p`
+- Build for production: `JEKYLL_ENV=production bundle exec jekyll build`
+- Test build: `bash tools/test.sh`
+
 ## Usage
 
 Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
