@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> ℹ️ **Currently open for new opportunities and collaborations.**
+> **Currently open for new opportunities and collaborations.**
 {: .prompt-info }
 
 # About
