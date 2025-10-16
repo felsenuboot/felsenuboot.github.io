@@ -46,7 +46,7 @@ During my bachelor’s, I spent a semester abroad at **Korea University** in Seo
 
 Studying at Witten/Herdecke shaped not only my professional skills but also my values. The university’s strong emphasis on responsibility, dialogue, and societal impact taught me that leadership goes beyond profit — it’s about purpose, empathy, and action.
 
-The entrepreneurial mindset fostered at Witten/Herdecke later inspired me to co-found [Forenamics]({% link _posts/2021-12-15-forenamics.md %}), an AI-based forecasting startup. The idea emerged from the question of how to apply business theory and management frameworks in a practical, technology-driven environment — a direct continuation of the spirit of entrepreneurship that defines the university.
+The entrepreneurial mindset fostered at Witten/Herdecke later inspired me to co-found [Forenamics]({% link _posts/2021-06-30-forenamics.md %}), an AI-based forecasting startup. The idea emerged from the question of how to apply business theory and management frameworks in a practical, technology-driven environment — a direct continuation of the spirit of entrepreneurship that defines the university.
 
 ---
 

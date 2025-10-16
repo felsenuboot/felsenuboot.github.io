@@ -4,7 +4,7 @@ title: "Forenamics – AI for Industry"
 date: 2021-06-30 10:00 +0100
 categories: [Entrepreneurship, Startup]
 tags: [ai, supply chain, entrepreneurship, start up]
-media_subpath: /assets/img/forenamics/
+media_subpath: /assets/img/
 author: felix
 ---
 
@@ -31,7 +31,7 @@ Our pilot customers were **[ERCO GmbH](https://www.erco.com)**, a lighting manuf
 
 Our work was funded in 2021 by the **Founders' Grant NRW** from the Ministry of Economic Affairs. In the same year, I gave a **keynote speech at the BVL Supply Chain Congress** about the use of AI in logistics.  
   
-![Professor Wimmer and Felix Schramm](MK5X7866.jpg){: .shadow}
+![Professor Wimmer and Felix Schramm](forenamics/MK5X7866.jpg){: .shadow}
 _Prof. Wimmer, Chairman of BVL Germany, and Felix Schramm, Co-Founder of Forenamics_
   
 

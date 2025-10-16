@@ -23,7 +23,7 @@ Key modules included:
 
 - *Digital Business* and *Process Innovation* — learning how digital technologies and AI reshape business models and value chains.  
 - *Business Model Innovation* and *Managing Digital Platform Ecosystems* — analyzing platform economies and designing scalable business ecosystems.  
-- *Machine Learning by Data Mining* — applying analytical tools to derive process insights and forecasting models, which linked closely to my experience from co-founding the AI startup [Forenamics]({% link _posts/2021-12-15-forenamics.md %})
+- *Machine Learning by Data Mining* — applying analytical tools to derive process insights and forecasting models, which linked closely to my experience from co-founding the AI startup [Forenamics]({% link _posts/2021-06-30-forenamics.md %})
 .  
 - *Intercultural Management* and *Advanced International Business* — developing frameworks for leading global teams and navigating cultural complexity.  
 - *Advanced Problem-Solving and Communication* — strengthening analytical reasoning, structured communication, and presentation skills in multicultural settings.
