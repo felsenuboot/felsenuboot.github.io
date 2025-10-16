@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Studying Intercultural Business in Marburg
-date: 2024-06-15 8:00 +0200
+date: 2024-12-10 8:00 +0200
 categories:
 - Education
 - University
