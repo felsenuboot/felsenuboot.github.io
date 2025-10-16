@@ -1,6 +1,6 @@
 ---
 layout: post
-title: understanding-cultural-distance-in-cross-border-ma
+title: Understanding the Influence of Cultural Distances in International Business
 date: 2024-12-12 8:00 +0200
 categories: [Education, Thesis]
 tags: [master-thesis, marburg, kobe, japan, germany, cross-border-ma, culture, valuation, strategy]
