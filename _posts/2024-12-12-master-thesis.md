@@ -1,3 +1,4 @@
+---
 layout: post
 title: understanding-cultural-distance-in-cross-border-ma
 date: 2024-12-12 8:00 +0200
