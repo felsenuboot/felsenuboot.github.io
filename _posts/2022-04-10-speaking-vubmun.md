@@ -14,7 +14,7 @@ tags:
 - new-york
 - saint-lucia
 - award
-media_subpath: "/assets/img/"
+media_subpath: /assets/img/
 author: felix
 ---
 ## Representing VUB at the United Nations
