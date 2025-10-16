@@ -69,17 +69,19 @@ These visualizations were central to interpreting my results, showing where Germ
 
 ### Comparative Overview
 
-![Boxplot of Cultural Distance Highlights](/img/marburg-master-thesis/both_frameworks-boxplot-with-highlights.png)  
-_Figure 1: Cultural distances between country pairs using the hofstede and erin meyers dimensions_
+![Boxplot of Cultural Distance Highlights](/marburg-master-thesis/both_frameworks-boxplot-with-highlights.png)
+_Figure 1: Cultural distances between country pairs using the hofstede and erin meyers dimensions._
 
 ### Cultural Network
 
-![Cultural Network Graph](/img/marburg-master-thesis/culture_network.png)  
+![Cultural Network Graph](/marburg-master-thesis/culture_network.png)
 _Figure 2: A cultural network graph illustrating relative distances between countries using the culture map._
 
 ### Clustering
-![K-Means Clustering](/img/marburg-master-thesis/hofstede-k-means-mds.png)
-_Figure 2: K-Means clustering of cultural distances, trying to visualize cultural distances between countries._
+
+![K-Means Clustering](/marburg-master-thesis/hofstede-k-means-mds.png)
+_Figure 3: K-Means clustering of cultural distances, trying to visualize cultural distances between countries._
+
 ---
 
 These figures were produced using my own analysis tool, **[Cultural Distances](https://github.com/felsenuboot/Cultural_Distances)**, which automates data collection, normalization, and visualization for cross-cultural studies. I will cover the software and its methodology in detail in a separate post.
