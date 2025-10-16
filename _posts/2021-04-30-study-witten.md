@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Studying Management in Witten/Herdecke
-date: 2021-06-15 8:00 +0200
+date: 2021-04-30 8:00 +0200
 categories:
 - Education
 - University
