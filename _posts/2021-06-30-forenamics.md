@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forenamics – AI for Industry"
-date: 2021-12-15 10:00 +0100
+date: 2021-06-30 10:00 +0100
 categories: [Entrepreneurship, Startup]
 tags: [ai, supply chain, entrepreneurship, start up]
 media_subpath: /assets/img/forenamics/
