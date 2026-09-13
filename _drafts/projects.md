@@ -1,0 +1,142 @@
+---
+layout: post
+title: "What I Build: A Tour of My Projects"
+description: "Eight things I built, from desktop apps for my Linux setup to civic dashboards and a research tool, each with a schematic card that shows what it does at a glance."
+categories:
+- Projects
+tags:
+- portfolio
+- linux
+- gtk4
+- nextjs
+- open-data
+- design
+media_subpath: /assets/img/projects/
+author: felix
+pin: true
+---
+
+Most of what I build starts as something I wanted for myself: a screenshot
+tool that behaves the way I remember from Windows, a dictionary for the
+Japanese I am learning, a mail client that opens instantly. Some of it grew
+into things other people can use, some of it stays a tool for one person.
+This is the overview; each project has, or will get, a post of its own.
+
+Every project carries the same two marks: a small icon, and a schematic
+"card" that shows the shape of the app rather than a screenshot. The cards
+are deliberately abstract, one dark frame, a muted outline of the interface,
+and one lit detail that says what the project is about. Together they are
+the visual thread through everything below.
+
+## Desktop apps for Linux
+
+I run Arch Linux with Hyprland, and the desktop tools I missed from other
+platforms I ended up writing myself, in GTK 4 and libadwaita so they feel
+native on GNOME-style desktops.
+
+### <img src="/assets/img/projects/snip-pin/icon.svg" width="36" style="vertical-align:middle" alt=""> snip-pin
+
+![snip-pin: a region is selected on screen and stays pinned above everything as a floating window](snip-pin/card.png){: width="800" }
+_Pick a region, a window or an element inside a window, and the screenshot stays exactly where it was taken._
+
+A screenshot tool for Hyprland in the style of Snipaste. Press a key, pick a
+region, and the snip floats above everything at its original position: drag
+it, zoom it, fade it, annotate it, copy or save it. It snaps to windows and
+to the rectangles inside them, keeps a history, and all pins share one
+process so a second pin appears in about 50 ms.
+[Source on GitHub](https://github.com/felsenuboot/snip-pin).
+
+### <img src="/assets/img/projects/tango/icon.svg" width="36" style="vertical-align:middle" alt=""> Tango 単語
+
+![Tango: a search sidebar and an entry page with the kanji, its stroke order and the senses](tango/card.png){: width="800" }
+_A search on the left, the entry with kanji, stroke order and senses on the right._
+
+An offline Japanese dictionary for GNOME, written in Rust. JMdict and
+Wadoku side by side, English and German, kanji with stroke order from
+KanjiVG, pitch accent, example sentences, JLPT levels, word lists with Anki
+export, and a WaniKani integration that marks what you already know. The
+search is the one a Jisho user expects, a few milliseconds and offline.
+
+### <img src="/assets/img/projects/den-mail/icon.svg" width="36" style="vertical-align:middle" alt=""> Den Mail
+
+![Den Mail: a three-pane mail window, the letter pulled out of its envelope in the reading pane](den-mail/card.png){: width="800" }
+_Folders, the message list, and the letter out of its envelope._
+
+A Fastmail client for GNOME that talks JMAP directly and keeps a local
+cache, so it opens at once, works offline and follows changes by push.
+Labels, undo for everything including sending, send later, a screener for
+first-time senders, local categories that learn from corrections, rules,
+Masked Email, and a lock screen.
+[Source on GitHub](https://github.com/felsenuboot/den-mail).
+
+### <img src="/assets/img/projects/yubioath-gtk/icon.svg" width="36" style="vertical-align:middle" alt=""> YubiOath
+
+![YubiOath: a list of accounts, one row lit by the YubiKey plugged into the window](yubioath-gtk/card.png){: width="800" }
+_The accounts on the key, one row lit by the key itself._
+
+The one-time passwords stored on a YubiKey, in a small GTK 4 window. A
+Linux-native replacement for the OTP part of Yubico Authenticator: codes with
+a countdown ring, click to copy, favourites, issuer logos, QR import, and a
+tray icon that copies a code without opening the window.
+[Source on GitHub](https://github.com/felsenuboot/yubioath-gtk).
+
+## Web apps
+
+### <img src="/assets/img/projects/color-combinator/icon.svg" width="36" style="vertical-align:middle" alt=""> Color Combinator
+
+![Color Combinator: a picked colour on the left, its nearest match in Wada's palette and the companion colours on the right](color-combinator/card.png){: width="800" }
+_Pick a colour, find its nearest match in the book, see what Wada paired it with._
+
+Sanzo Wada's *A Dictionary of Color Combinations* (配色事典, 1933) as a
+companion finder: 159 colours, 348 combinations and the 72 plates of the
+Seasons volume. Paste a hex or sample a colour from a photo, and the app
+finds its nearest match in the palette and every colour Wada paired it with,
+ranked by how often they appear together and traceable to the plate. The
+interface is built from the book's own colours.
+
+### <img src="/assets/img/projects/civic-digital/icon.svg" width="36" style="vertical-align:middle" alt=""> Civic Digital
+
+![Civic Digital: one page of cards, one per data source, with a map pin dropped on it](civic-digital/card.png){: width="800" }
+_One place, one page: weather, departures, water level, air, waste, council._
+
+The most useful public data for one place on one page: weather and official
+warnings, live departures, water levels, air quality, the waste calendar,
+schools and holidays, the city council. All from open data, fetched
+server-side, keyless, failing soft per card. It began as
+[Digital.Herdecke](https://github.com/felsenuboot/herdecke-digital) for my
+home town, gained a [Dortmund](https://github.com/felsenuboot/dortmund-digital)
+sister, and is now one codebase with six deployments, five of them in Japan
+(神戸, 大阪, 東京, 関西, 関東), in three languages, on the KERN design system of
+the German public administration.
+
+## Research and simulation
+
+### <img src="/assets/img/projects/cultural-distances/icon.svg" width="36" style="vertical-align:middle" alt=""> Cultural Distances
+
+![Cultural Distances: two countries as markers on six dimension tracks, the gap between them drawn in red on each](cultural-distances/card.png){: width="800" }
+_Two countries, six dimensions, and the distance between them on each._
+
+A terminal tool from my master's thesis on cultural distance and
+overpayment in cross-border M&A. It turns Hofstede's six dimensions and Erin
+Meyer's eight Culture Map scales into a distance between every pair of
+countries, then shows the result as a network graph, as clusters, or as box
+plots with the pairs you care about highlighted.
+[Source on GitHub](https://github.com/felsenuboot/Cultural_Distances).
+
+### <img src="/assets/img/projects/bottleneck-sim/icon.svg" width="36" style="vertical-align:middle" alt=""> Bottleneck Simulator
+
+![Bottleneck Simulator: two chambers joined by a glowing neck, items crowding in front of it and trickling out behind](bottleneck-sim/card.png){: width="800" }
+_Items crowd in front of the neck and trickle out behind it._
+
+A browser simulation of a process line, told through the population
+bottleneck metaphor: items flow through wide chambers joined by narrow
+necks, and you watch where the queue forms, what the throughput settles at,
+and what changes when the neck is widened. Built for explaining on a
+projector, with before-and-after comparison, a presentation mode and export
+as video or GIF.
+
+## Where this goes
+
+The posts for the individual projects are next, and the cards will show up
+on a projects page. If one of these is useful to you, the public ones take
+issues and pull requests; the private ones will open up once they are ready.
