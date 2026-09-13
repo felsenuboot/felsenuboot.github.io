@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3445"/>
+      <stop offset="1" stop-color="#121722"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- window -->
+  <rect x="160" y="80" width="1280" height="740" rx="30" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+  <!-- header: logo chip, wordmark, nav, theme toggle -->
+  <line x1="160" y1="156" x2="1440" y2="156" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3"/>
+  <g>
+    <rect x="204" y="106" width="44" height="30" rx="4" fill="#12354e"/>
+    <rect x="218.7" y="106" width="14.6" height="30" fill="#d96629"/>
+    <rect x="233.3" y="106" width="14.7" height="30" rx="4" fill="#f99d1b"/>
+    <rect x="233.3" y="106" width="8" height="30" fill="#f99d1b"/>
+  </g>
+  <rect x="266" y="110" width="150" height="14" rx="7" fill="#ffffff" fill-opacity="0.5"/>
+  <rect x="266" y="130" width="90" height="8" rx="4" fill="#ffffff" fill-opacity="0.22"/>
+  <g fill="#ffffff">
+    <rect x="520" y="112" width="52" height="14" rx="7" fill-opacity="0.5"/>
+    <rect x="596" y="112" width="70" height="14" rx="7" fill-opacity="0.22"/>
+    <rect x="690" y="112" width="110" height="14" rx="7" fill-opacity="0.22"/>
+    <rect x="824" y="112" width="76" height="14" rx="7" fill-opacity="0.22"/>
+    <rect x="924" y="112" width="84" height="14" rx="7" fill-opacity="0.22"/>
+  </g>
+  <rect x="1180" y="102" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2"/>
+  <circle cx="1394" cy="119" r="17" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M1394 108a11 11 0 0 0 0 22z" fill="#ffffff" fill-opacity="0.35"/>
+
+  <!-- ===== left: the input card ===== -->
+  <rect x="204" y="200" width="20" height="8" rx="4" fill="#d96629" fill-opacity="0.8"/>
+  <rect x="232" y="200" width="120" height="8" rx="4" fill="#d96629" fill-opacity="0.5"/>
+  <rect x="204" y="228" width="420" height="30" rx="8" fill="#ffffff" fill-opacity="0.55"/>
+  <rect x="204" y="270" width="360" height="12" rx="6" fill="#ffffff" fill-opacity="0.22"/>
+  <rect x="204" y="292" width="300" height="12" rx="6" fill="#ffffff" fill-opacity="0.22"/>
+
+  <!-- the picked colour: the one lit thing on the left -->
+  <rect x="204" y="340" width="420" height="270" rx="16" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3"/>
+  <rect x="204" y="340" width="420" height="150" rx="16" fill="#3b6e8f"/>
+  <rect x="204" y="470" width="420" height="20" fill="#3b6e8f"/>
+  <rect x="226" y="400" width="88" height="18" rx="9" fill="#ffffff" fill-opacity="0.85"/>
+  <!-- hex row: native picker + text input -->
+  <rect x="226" y="512" width="36" height="36" rx="8" fill="#3b6e8f" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="274" y="512" width="180" height="36" rx="8" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2"/>
+  <rect x="288" y="524" width="100" height="12" rx="6" fill="#ffffff" fill-opacity="0.45"/>
+  <!-- seed swatches: the book's colours -->
+  <g>
+    <rect x="226" y="568" width="26" height="26" rx="6" fill="#f9c1ce"/>
+    <rect x="260" y="568" width="26" height="26" rx="6" fill="#d96629"/>
+    <rect x="294" y="568" width="26" height="26" rx="6" fill="#f99d1b"/>
+    <rect x="328" y="568" width="26" height="26" rx="6" fill="#437742"/>
+    <rect x="362" y="568" width="26" height="26" rx="6" fill="#0093a5"/>
+    <rect x="396" y="568" width="26" height="26" rx="6" fill="#12354e"/>
+    <rect x="430" y="568" width="26" height="26" rx="6" fill="#97acc8"/>
+    <rect x="464" y="568" width="26" height="26" rx="6" fill="#cb2f43"/>
+  </g>
+
+  <!-- photo panel: drop a photo, sample a colour -->
+  <rect x="204" y="640" width="420" height="140" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="3" stroke-dasharray="12 10"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="380" y="682" width="68" height="56" rx="6"/>
+    <circle cx="400" cy="700" r="6"/>
+    <path d="M384 732 l18 -18 14 14 10 -10 18 18"/>
+  </g>
+
+  <!-- ===== right: the match and its companions ===== -->
+  <rect x="690" y="200" width="200" height="8" rx="4" fill="#ffffff" fill-opacity="0.3"/>
+  <!-- match head: chip, names, delta -->
+  <rect x="690" y="228" width="100" height="100" rx="14" fill="#245d8a"/>
+  <rect x="690" y="228" width="100" height="100" rx="14" fill="#3b6e8f"/>
+  <rect x="690" y="228" width="100" height="100" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
+  <rect x="812" y="234" width="240" height="22" rx="11" fill="#ffffff" fill-opacity="0.7"/>
+  <rect x="812" y="268" width="150" height="14" rx="7" fill="#ffffff" fill-opacity="0.35"/>
+  <rect x="812" y="300" width="110" height="10" rx="5" fill="#ffffff" fill-opacity="0.22"/>
+  <rect x="932" y="300" width="70" height="10" rx="5" fill="#437742" fill-opacity="0.85"/>
+  <!-- the plates the match appears in: lit combination bars -->
+  <g>
+    <rect x="1160" y="236" width="90" height="28" rx="5" fill="#f3a257"/>
+    <rect x="1190" y="236" width="60" height="28" fill="#3b6e8f"/>
+    <rect x="1220" y="236" width="30" height="28" rx="5" fill="#12354e"/>
+    <rect x="1220" y="236" width="10" height="28" fill="#12354e"/>
+
+    <rect x="1266" y="236" width="90" height="28" rx="5" fill="#f9c1ce"/>
+    <rect x="1311" y="236" width="45" height="28" rx="5" fill="#3b6e8f"/>
+    <rect x="1311" y="236" width="10" height="28" fill="#3b6e8f"/>
+
+    <rect x="1160" y="276" width="90" height="28" rx="5" fill="#3b6e8f"/>
+    <rect x="1182.5" y="276" width="67.5" height="28" fill="#cb2f43"/>
+    <rect x="1205" y="276" width="45" height="28" fill="#efeadf"/>
+    <rect x="1227.5" y="276" width="22.5" height="28" rx="5" fill="#437742"/>
+    <rect x="1227.5" y="276" width="10" height="28" fill="#437742"/>
+
+    <rect x="1266" y="276" width="90" height="28" rx="5" fill="#97acc8"/>
+    <rect x="1296" y="276" width="60" height="28" fill="#3b6e8f"/>
+    <rect x="1326" y="276" width="30" height="28" rx="5" fill="#d96629"/>
+    <rect x="1326" y="276" width="10" height="28" fill="#d96629"/>
+  </g>
+  <!-- heart -->
+  <path d="M1400 262 c-14 -9 -26 -19 -26 -30 a10 10 0 0 1 20 -4 a10 10 0 0 1 20 4 c0 11 -12 21 -26 30 z" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="3"/>
+
+  <!-- section label -->
+  <rect x="690" y="370" width="260" height="10" rx="5" fill="#ffffff" fill-opacity="0.3"/>
+
+  <!-- companions grid: 4 x 2 colour cards, real Wada colours on the fill -->
+  <g>
+    <rect x="690" y="400" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M690 412 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#f3a257"/>
+    <rect x="704" y="506" width="100" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="704" y="526" width="60" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="704" y="546" width="80" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="872" y="400" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M872 412 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#cb2f43"/>
+    <rect x="886" y="506" width="90" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="886" y="526" width="50" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="886" y="546" width="70" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="1054" y="400" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M1054 412 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#efeadf"/>
+    <rect x="1068" y="506" width="110" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="1068" y="526" width="56" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="1068" y="546" width="84" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="1236" y="400" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M1236 412 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#f9c1ce"/>
+    <rect x="1250" y="506" width="96" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="1250" y="526" width="44" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="1250" y="546" width="76" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="690" y="592" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M690 604 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#437742"/>
+    <rect x="704" y="698" width="104" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="704" y="718" width="58" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="704" y="738" width="72" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="872" y="592" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M872 604 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#97acc8"/>
+    <rect x="886" y="698" width="86" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="886" y="718" width="48" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="886" y="738" width="66" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="1054" y="592" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M1054 604 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#d96629"/>
+    <rect x="1068" y="698" width="98" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="1068" y="718" width="54" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="1068" y="738" width="80" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+
+    <rect x="1236" y="592" width="164" height="170" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+    <path d="M1236 604 a12 12 0 0 1 12 -12 h140 a12 12 0 0 1 12 12 v78 h-164 z" fill="#12354e"/>
+    <rect x="1250" y="698" width="92" height="12" rx="6" fill="#ffffff" fill-opacity="0.55"/>
+    <rect x="1250" y="718" width="50" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.3"/>
+    <rect x="1250" y="738" width="70" height="8" rx="4" fill="#ffffff" fill-opacity="0.2"/>
+  </g>
+</svg>
