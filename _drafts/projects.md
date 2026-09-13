@@ -30,65 +30,65 @@ the visual thread through everything below.
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin:1.5rem 0 2.5rem">
   <a href="#snip-pin" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/snip-pin/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="snip-pin/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/snip-pin/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="snip-pin/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>snip-pin</strong><small style="opacity:.75">Snip and pin for Hyprland</small></span>
     </span>
   </a>
   <a href="#tango" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/tango/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="tango/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/tango/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="tango/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Tango 単語</strong><small style="opacity:.75">Japanese dictionary for GNOME</small></span>
     </span>
   </a>
   <a href="#den-mail" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/den-mail/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="den-mail/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/den-mail/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="den-mail/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Den Mail</strong><small style="opacity:.75">Fastmail client for GNOME</small></span>
     </span>
   </a>
   <a href="#yubioath-gtk" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/yubioath-gtk/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="yubioath-gtk/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/yubioath-gtk/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="yubioath-gtk/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>YubiOath</strong><small style="opacity:.75">YubiKey codes for GNOME</small></span>
     </span>
   </a>
   <a href="#knx-panel" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/knx-panel/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="knx-panel/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/knx-panel/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="knx-panel/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Control-9 Wandpanel</strong><small style="opacity:.75">Home Assistant on a 2008 wall panel</small></span>
     </span>
   </a>
   <a href="#color-combinator" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/color-combinator/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="color-combinator/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/color-combinator/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="color-combinator/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Color Combinator</strong><small style="opacity:.75">Sanzo Wada's colour dictionary</small></span>
     </span>
   </a>
   <a href="#civic-digital" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/civic-digital/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="civic-digital/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/civic-digital/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="civic-digital/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Civic Digital</strong><small style="opacity:.75">One place, one page of open data</small></span>
     </span>
   </a>
   <a href="#cultural-distances" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/cultural-distances/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="cultural-distances/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/cultural-distances/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="cultural-distances/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Cultural Distances</strong><small style="opacity:.75">Hofstede and the Culture Map, measured</small></span>
     </span>
   </a>
   <a href="#bottleneck-sim" style="display:block;text-decoration:none;color:inherit;border:1px solid var(--card-border-color, #ddd);border-radius:12px;overflow:hidden;background:var(--card-bg, transparent)">
-    <img src="/assets/img/projects/bottleneck-sim/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
+    <img src="bottleneck-sim/card.png" alt="" style="display:block;width:100%;aspect-ratio:16/9;object-fit:cover;margin:0">
     <span style="display:flex;align-items:center;gap:10px;padding:10px 12px">
-      <img src="/assets/img/projects/bottleneck-sim/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
+      <img src="bottleneck-sim/icon.svg" alt="" style="width:36px;height:36px;flex:none;margin:0">
       <span style="display:flex;flex-direction:column;line-height:1.25"><strong>Bottleneck Simulator</strong><small style="opacity:.75">Watch a process choke</small></span>
     </span>
   </a>
@@ -100,7 +100,7 @@ I run Arch Linux with Hyprland, and the desktop tools I missed from other
 platforms I ended up writing myself, in GTK 4 and libadwaita so they feel
 native on GNOME-style desktops.
 
-### <img src="/assets/img/projects/snip-pin/icon.svg" width="36" style="vertical-align:middle" alt=""> snip-pin {#snip-pin}
+### <img src="snip-pin/icon.svg" width="36" style="vertical-align:middle" alt=""> snip-pin {#snip-pin}
 
 ![snip-pin: a region is selected on screen and stays pinned above everything as a floating window](snip-pin/card.png){: width="800" }
 _Pick a region, a window or an element inside a window, and the screenshot stays exactly where it was taken._
@@ -112,7 +112,7 @@ to the rectangles inside them, keeps a history, and all pins share one
 process so a second pin appears in about 50 ms.
 [Source on GitHub](https://github.com/felsenuboot/snip-pin).
 
-### <img src="/assets/img/projects/tango/icon.svg" width="36" style="vertical-align:middle" alt=""> Tango 単語 {#tango}
+### <img src="tango/icon.svg" width="36" style="vertical-align:middle" alt=""> Tango 単語 {#tango}
 
 ![Tango: a search sidebar and an entry page with the kanji, its stroke order and the senses](tango/card.png){: width="800" }
 _A search on the left, the entry with kanji, stroke order and senses on the right._
@@ -123,7 +123,7 @@ KanjiVG, pitch accent, example sentences, JLPT levels, word lists with Anki
 export, and a WaniKani integration that marks what you already know. The
 search is the one a Jisho user expects, a few milliseconds and offline.
 
-### <img src="/assets/img/projects/den-mail/icon.svg" width="36" style="vertical-align:middle" alt=""> Den Mail {#den-mail}
+### <img src="den-mail/icon.svg" width="36" style="vertical-align:middle" alt=""> Den Mail {#den-mail}
 
 ![Den Mail: a three-pane mail window, the letter pulled out of its envelope in the reading pane](den-mail/card.png){: width="800" }
 _Folders, the message list, and the letter out of its envelope._
@@ -135,7 +135,7 @@ first-time senders, local categories that learn from corrections, rules,
 Masked Email, and a lock screen.
 [Source on GitHub](https://github.com/felsenuboot/den-mail).
 
-### <img src="/assets/img/projects/yubioath-gtk/icon.svg" width="36" style="vertical-align:middle" alt=""> YubiOath {#yubioath-gtk}
+### <img src="yubioath-gtk/icon.svg" width="36" style="vertical-align:middle" alt=""> YubiOath {#yubioath-gtk}
 
 ![YubiOath: a list of accounts, one row lit by the YubiKey plugged into the window](yubioath-gtk/card.png){: width="800" }
 _The accounts on the key, one row lit by the key itself._
@@ -146,7 +146,7 @@ a countdown ring, click to copy, favourites, issuer logos, QR import, and a
 tray icon that copies a code without opening the window.
 [Source on GitHub](https://github.com/felsenuboot/yubioath-gtk).
 
-### <img src="/assets/img/projects/knx-panel/icon.svg" width="36" style="vertical-align:middle" alt=""> Control-9 Wandpanel {#knx-panel}
+### <img src="knx-panel/icon.svg" width="36" style="vertical-align:middle" alt=""> Control-9 Wandpanel {#knx-panel}
 
 ![Control-9 Wandpanel: a house with four rooms, one of them lit and wired to a tile on the wall panel](knx-panel/card.png){: width="800" }
 _A room in the house, wired to its tile on the panel._
@@ -161,7 +161,7 @@ to the wall within a minute of a push.
 
 ## Web apps
 
-### <img src="/assets/img/projects/color-combinator/icon.svg" width="36" style="vertical-align:middle" alt=""> Color Combinator {#color-combinator}
+### <img src="color-combinator/icon.svg" width="36" style="vertical-align:middle" alt=""> Color Combinator {#color-combinator}
 
 ![Color Combinator: a picked colour on the left, its nearest match in Wada's palette and the companion colours on the right](color-combinator/card.png){: width="800" }
 _Pick a colour, find its nearest match in the book, see what Wada paired it with._
@@ -173,7 +173,7 @@ finds its nearest match in the palette and every colour Wada paired it with,
 ranked by how often they appear together and traceable to the plate. The
 interface is built from the book's own colours.
 
-### <img src="/assets/img/projects/civic-digital/icon.svg" width="36" style="vertical-align:middle" alt=""> Civic Digital {#civic-digital}
+### <img src="civic-digital/icon.svg" width="36" style="vertical-align:middle" alt=""> Civic Digital {#civic-digital}
 
 ![Civic Digital: one page of cards, one per data source, with a map pin dropped on it](civic-digital/card.png){: width="800" }
 _One place, one page: weather, departures, water level, air, waste, council._
@@ -190,7 +190,7 @@ the German public administration.
 
 ## Research and simulation
 
-### <img src="/assets/img/projects/cultural-distances/icon.svg" width="36" style="vertical-align:middle" alt=""> Cultural Distances {#cultural-distances}
+### <img src="cultural-distances/icon.svg" width="36" style="vertical-align:middle" alt=""> Cultural Distances {#cultural-distances}
 
 ![Cultural Distances: two countries as markers on six dimension tracks, the gap between them drawn in red on each](cultural-distances/card.png){: width="800" }
 _Two countries, six dimensions, and the distance between them on each._
@@ -202,7 +202,7 @@ countries, then shows the result as a network graph, as clusters, or as box
 plots with the pairs you care about highlighted.
 [Source on GitHub](https://github.com/felsenuboot/Cultural_Distances).
 
-### <img src="/assets/img/projects/bottleneck-sim/icon.svg" width="36" style="vertical-align:middle" alt=""> Bottleneck Simulator {#bottleneck-sim}
+### <img src="bottleneck-sim/icon.svg" width="36" style="vertical-align:middle" alt=""> Bottleneck Simulator {#bottleneck-sim}
 
 ![Bottleneck Simulator: two chambers joined by a glowing neck, items crowding in front of it and trickling out behind](bottleneck-sim/card.png){: width="800" }
 _Items crowd in front of the neck and trickle out behind it._
