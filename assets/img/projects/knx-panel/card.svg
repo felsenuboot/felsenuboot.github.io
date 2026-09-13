@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3445"/>
+      <stop offset="1" stop-color="#121722"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151b26"/>
+      <stop offset="1" stop-color="#0e131b"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#3584e4" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#3584e4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- the house: rooms and devices, muted -->
+  <g transform="translate(24 -28)">
+    <g stroke="#ffffff" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M196 432 L424 258 L652 432" stroke-opacity=".42" stroke-width="7"/>
+      <rect x="230" y="432" width="388" height="286" rx="18" stroke-opacity=".42" stroke-width="7"/>
+    </g>
+    <g fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".16" stroke-width="3">
+      <rect x="262" y="464" width="152" height="104" rx="12"/>
+      <rect x="434" y="464" width="152" height="104" rx="12"/>
+      <rect x="262" y="582" width="152" height="104" rx="12"/>
+      <rect x="434" y="582" width="152" height="104" rx="12"/>
+    </g>
+    <g fill="#ffffff" fill-opacity=".3">
+      <circle cx="338" cy="516" r="11"/>
+      <circle cx="338" cy="634" r="11"/>
+      <circle cx="510" cy="634" r="11"/>
+    </g>
+  </g>
+
+  <!-- the one device that is on, and its thread into the panel -->
+  <circle cx="534" cy="488" r="90" fill="url(#lamp)"/>
+  <path d="M534 488 C 726 488 790 402 962 402" fill="none" stroke="#3584e4" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="534" cy="488" r="15" fill="#3584e4"/>
+
+  <!-- the wall panel -->
+  <g transform="translate(-60 -28)">
+    <rect x="900" y="270" width="612" height="384" rx="30" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".34" stroke-width="6"/>
+    <rect x="930" y="300" width="552" height="324" rx="14" fill="url(#screen)"/>
+    <rect x="1116" y="320" width="180" height="26" rx="13" fill="#ffffff" fill-opacity=".3"/>
+    <g fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".14" stroke-width="3">
+      <rect x="1218" y="366" width="246" height="112" rx="16"/>
+      <rect x="948" y="492" width="246" height="112" rx="16"/>
+      <rect x="1218" y="492" width="246" height="112" rx="16"/>
+    </g>
+    <rect x="948" y="366" width="246" height="112" rx="16" fill="#3584e4"/>
+  </g>
+</svg>

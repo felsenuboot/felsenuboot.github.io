@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I Build: A Tour of My Projects"
-description: "Eight things I built, from desktop apps for my Linux setup to civic dashboards and a research tool, each with a schematic card that shows what it does at a glance."
+description: "Nine things I built, from desktop apps for my Linux setup to civic dashboards and a research tool, each with a schematic card that shows what it does at a glance."
 categories:
 - Projects
 tags:
@@ -79,6 +79,19 @@ Linux-native replacement for the OTP part of Yubico Authenticator: codes with
 a countdown ring, click to copy, favourites, issuer logos, QR import, and a
 tray icon that copies a code without opening the window.
 [Source on GitHub](https://github.com/felsenuboot/yubioath-gtk).
+
+### <img src="/assets/img/projects/knx-panel/icon.svg" width="36" style="vertical-align:middle" alt=""> Control-9 Wandpanel
+
+![Control-9 Wandpanel: a house with four rooms, one of them lit and wired to a tile on the wall panel](knx-panel/card.png){: width="800" }
+_A room in the house, wired to its tile on the panel._
+
+A wall panel UI for a Gira Control 9 from 2008: an 800×480 touch screen
+running Windows XP Embedded and a Firefox 68 core, which cannot scroll and
+cannot decode H.264. A Python server reads Home Assistant and serves one
+HTML page of tiles: rooms and zones, lights and blinds, solar, wallbox, pool,
+weather with official warnings, the entrance camera, and a screensaver with
+the clock. The layout is drawn on the desktop in a configurator and deployed
+to the wall within a minute of a push.
 
 ## Web apps
 
