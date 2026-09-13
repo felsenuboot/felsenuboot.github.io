@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a8fb2"/>
+      <stop offset="1" stop-color="#1B6E8C"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#g)"/>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="none" stroke="#000" stroke-opacity=".15" stroke-width="2"/>
+  <!-- the page: a grid of cards, one per data source -->
+  <g fill="#fff" fill-opacity=".22">
+    <rect x="24" y="26" width="24" height="18" rx="4"/>
+    <rect x="52" y="26" width="24" height="18" rx="4"/>
+    <rect x="80" y="26" width="24" height="18" rx="4"/>
+    <rect x="24" y="48" width="24" height="18" rx="4"/>
+    <rect x="80" y="48" width="24" height="18" rx="4"/>
+    <rect x="24" y="70" width="24" height="18" rx="4"/>
+    <rect x="52" y="70" width="24" height="18" rx="4"/>
+    <rect x="80" y="70" width="24" height="18" rx="4"/>
+    <rect x="24" y="92" width="80" height="10" rx="4"/>
+  </g>
+  <!-- the pin: this one place -->
+  <path d="M64 100 C52 82, 42 72, 42 58 A22 22 0 0 1 86 58 C86 72, 76 82, 64 100 Z" fill="#fff" stroke="#1B6E8C" stroke-opacity=".5" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="64" cy="58" r="9" fill="#1B6E8C"/>
+</svg>
