@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3445"/>
+      <stop offset="1" stop-color="#121722"/>
+    </linearGradient>
+    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb056"/>
+      <stop offset="1" stop-color="#ff6a2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".3" cy=".2" r=".8">
+      <stop offset="0" stop-color="#fff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="30" fill="url(#bg)"/>
+  <rect x="6" y="6" width="116" height="116" rx="30" fill="url(#glow)"/>
+  <rect x="6.75" y="6.75" width="114.5" height="114.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="1.5"/>
+  <!-- selection brackets -->
+  <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 48 V30 H48"/>
+    <path d="M80 30 H98 V48"/>
+    <path d="M30 80 V98 H48"/>
+    <path d="M80 98 H98 V80"/>
+  </g>
+  <!-- pushpin -->
+  <g transform="translate(64 60) rotate(45)">
+    <path d="M-11 -30 H11 A4 4 0 0 1 11 -22 L9 -22 L9 -6 L16 2 A4 4 0 0 1 16 8 H-16 A4 4 0 0 1 -16 2 L-9 -6 L-9 -22 L-11 -22 A4 4 0 0 1 -11 -30 Z" fill="url(#pin)"/>
+    <path d="M0 8 V34" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
