@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3445"/>
+      <stop offset="1" stop-color="#121722"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- window -->
+  <rect x="200" y="110" width="1200" height="680" rx="40" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.22" stroke-width="6"/>
+
+  <!-- country A: filled flag, above its filled marker -->
+  <g stroke="#e6e9ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="472" y1="160" x2="472" y2="272"/>
+    <rect x="472" y="160" width="104" height="68" fill="#e6e9ef"/>
+  </g>
+
+  <!-- country B: outlined flag, above its ring marker -->
+  <g stroke="#e6e9ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="852" y1="160" x2="852" y2="272"/>
+    <rect x="852" y="160" width="104" height="68" fill="none"/>
+  </g>
+
+  <!-- dimension tracks (one row per cultural dimension) -->
+  <g stroke="#ffffff" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round">
+    <line x1="320" y1="325" x2="1280" y2="325"/>
+    <line x1="320" y1="408" x2="1280" y2="408"/>
+    <line x1="320" y1="491" x2="1280" y2="491"/>
+    <line x1="320" y1="574" x2="1280" y2="574"/>
+    <line x1="320" y1="657" x2="1280" y2="657"/>
+    <line x1="320" y1="740" x2="1280" y2="740"/>
+  </g>
+
+  <!-- the distance between the two countries on each dimension (accent) -->
+  <g stroke="#e5484d" stroke-width="16" stroke-linecap="round">
+    <line x1="520"  y1="325" x2="900"  y2="325"/>
+    <line x1="780"  y1="408" x2="1020" y2="408"/>
+    <line x1="420"  y1="491" x2="1160" y2="491"/>
+    <line x1="700"  y1="574" x2="760"  y2="574"/>
+    <line x1="880"  y1="657" x2="1240" y2="657"/>
+    <line x1="380"  y1="740" x2="620"  y2="740"/>
+  </g>
+
+  <!-- country A markers: filled dots -->
+  <g fill="#e6e9ef">
+    <circle cx="520"  cy="325" r="24"/>
+    <circle cx="1020" cy="408" r="24"/>
+    <circle cx="420"  cy="491" r="24"/>
+    <circle cx="700"  cy="574" r="24"/>
+    <circle cx="880"  cy="657" r="24"/>
+    <circle cx="620"  cy="740" r="24"/>
+  </g>
+
+  <!-- country B markers: rings -->
+  <g fill="#1a2030" stroke="#e6e9ef" stroke-width="9">
+    <circle cx="900"  cy="325" r="21"/>
+    <circle cx="780"  cy="408" r="21"/>
+    <circle cx="1160" cy="491" r="21"/>
+    <circle cx="760"  cy="574" r="21"/>
+    <circle cx="1240" cy="657" r="21"/>
+    <circle cx="380"  cy="740" r="21"/>
+  </g>
+</svg>

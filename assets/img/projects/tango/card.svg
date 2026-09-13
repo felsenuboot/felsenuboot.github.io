@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3445"/>
+      <stop offset="1" stop-color="#121722"/>
+    </linearGradient>
+    <!-- the kanji 語, drawn as strokes in a 200x180 box -->
+    <g id="kanji" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="40" y1="6" x2="44" y2="24"/>
+      <line x1="6" y1="42" x2="78" y2="42"/>
+      <line x1="18" y1="66" x2="66" y2="66"/>
+      <line x1="18" y1="88" x2="66" y2="88"/>
+      <rect x="16" y="114" width="52" height="58"/>
+      <line x1="104" y1="20" x2="196" y2="20"/>
+      <line x1="150" y1="20" x2="140" y2="90"/>
+      <polyline points="118,54 180,54 180,90"/>
+      <line x1="100" y1="92" x2="200" y2="92"/>
+      <rect x="120" y="116" width="62" height="56"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- window -->
+  <rect x="120" y="70" width="1360" height="760" rx="32" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.16" stroke-width="4"/>
+
+  <!-- ===== sidebar: search + results ===== -->
+  <rect x="170" y="120" width="380" height="74" rx="37" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.22" stroke-width="4"/>
+  <circle cx="214" cy="156" r="15" fill="none" stroke="#ffffff" stroke-opacity="0.6" stroke-width="6"/>
+  <line x1="225" y1="167" x2="238" y2="180" stroke="#ffffff" stroke-opacity="0.6" stroke-width="6" stroke-linecap="round"/>
+  <rect x="264" y="146" width="90" height="20" rx="10" fill="#ffffff" fill-opacity="0.6"/>
+  <line x1="374" y1="140" x2="374" y2="172" stroke="#ffffff" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- selected row -->
+  <rect x="160" y="228" width="400" height="96" rx="18" fill="#ffffff" fill-opacity="0.09"/>
+  <rect x="184" y="248" width="70" height="24" rx="6" fill="#ffffff" fill-opacity="0.7"/>
+  <rect x="264" y="250" width="110" height="20" rx="10" fill="#ffffff" fill-opacity="0.4"/>
+  <rect x="184" y="286" width="150" height="16" rx="8" fill="#ffffff" fill-opacity="0.3"/>
+  <!-- other rows -->
+  <g fill="#ffffff">
+    <rect x="184" y="356" width="70" height="24" rx="6" fill-opacity="0.35"/>
+    <rect x="264" y="358" width="130" height="20" rx="10" fill-opacity="0.2"/>
+    <rect x="184" y="394" width="120" height="16" rx="8" fill-opacity="0.16"/>
+    <rect x="184" y="452" width="100" height="24" rx="6" fill-opacity="0.35"/>
+    <rect x="294" y="454" width="140" height="20" rx="10" fill-opacity="0.2"/>
+    <rect x="184" y="490" width="180" height="16" rx="8" fill-opacity="0.16"/>
+    <rect x="184" y="548" width="70" height="24" rx="6" fill-opacity="0.35"/>
+    <rect x="264" y="550" width="110" height="20" rx="10" fill-opacity="0.2"/>
+    <rect x="184" y="586" width="140" height="16" rx="8" fill-opacity="0.16"/>
+    <rect x="184" y="644" width="100" height="24" rx="6" fill-opacity="0.35"/>
+    <rect x="294" y="646" width="120" height="20" rx="10" fill-opacity="0.2"/>
+    <rect x="184" y="682" width="160" height="16" rx="8" fill-opacity="0.16"/>
+  </g>
+
+  <line x1="600" y1="72" x2="600" y2="828" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3"/>
+
+  <!-- ===== entry page ===== -->
+  <!-- headword: the kanji, lit -->
+  <use href="#kanji" x="660" y="130" stroke="#e66a5b" stroke-width="16"/>
+  <!-- furigana dots above it -->
+  <g fill="#ffffff" fill-opacity="0.55">
+    <circle cx="700" cy="106" r="7"/><circle cx="730" cy="106" r="7"/>
+    <circle cx="790" cy="106" r="7"/><circle cx="820" cy="106" r="7"/>
+  </g>
+
+  <!-- stroke-order box -->
+  <rect x="920" y="122" width="200" height="200" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
+  <line x1="1020" y1="122" x2="1020" y2="322" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 10"/>
+  <line x1="920" y1="222" x2="1120" y2="222" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 10"/>
+  <use href="#kanji" x="940" y="142" transform="translate(940 142) scale(0.8) translate(-940 -142)" stroke="#ffffff" stroke-opacity="0.75" stroke-width="12"/>
+  <!-- stroke numbers at the stroke starts -->
+  <g fill="#e66a5b">
+    <circle cx="966" cy="140" r="6"/><circle cx="938" cy="168" r="6"/><circle cx="948" cy="190" r="6"/>
+    <circle cx="1018" cy="150" r="6"/><circle cx="1066" cy="150" r="6"/><circle cx="1028" cy="178" r="6"/>
+  </g>
+
+  <!-- header actions: star, speaker -->
+  <polygon points="1380,120 1391,143 1416,146 1398,163 1402,188 1380,176 1358,188 1362,163 1344,146 1369,143" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M1236 148 h-18 v22 h18 l20 16 v-54 z" fill="#ffffff" fill-opacity="0.5"/>
+  <path d="M1266 146 q10 12 0 24 M1280 136 q18 22 0 44" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- pills: common, jlpt, strokes -->
+  <rect x="660" y="352" width="90" height="28" rx="14" fill="#ffffff" fill-opacity="0.2"/>
+  <rect x="762" y="352" width="70" height="28" rx="14" fill="#ffffff" fill-opacity="0.14"/>
+  <rect x="844" y="352" width="110" height="28" rx="14" fill="#ffffff" fill-opacity="0.14"/>
+
+  <!-- senses, language tags -->
+  <g font-size="0">
+    <circle cx="676" cy="436" r="8" fill="#ffffff" fill-opacity="0.5"/>
+    <rect x="704" y="424" width="56" height="24" rx="6" fill="#ffffff" fill-opacity="0.32"/>
+    <rect x="780" y="426" width="560" height="20" rx="10" fill="#ffffff" fill-opacity="0.55"/>
+
+    <circle cx="676" cy="492" r="8" fill="#ffffff" fill-opacity="0.5"/>
+    <rect x="704" y="480" width="56" height="24" rx="6" fill="#ffffff" fill-opacity="0.32"/>
+    <rect x="780" y="482" width="380" height="20" rx="10" fill="#ffffff" fill-opacity="0.45"/>
+
+    <circle cx="676" cy="548" r="8" fill="#ffffff" fill-opacity="0.5"/>
+    <rect x="704" y="536" width="56" height="24" rx="6" fill="#ffffff" fill-opacity="0.32"/>
+    <rect x="780" y="538" width="460" height="20" rx="10" fill="#ffffff" fill-opacity="0.38"/>
+  </g>
+  <line x1="660" y1="600" x2="1420" y2="600" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+  <!-- second language block -->
+  <rect x="660" y="626" width="130" height="20" rx="10" fill="#ffffff" fill-opacity="0.4"/>
+  <g>
+    <circle cx="676" cy="690" r="8" fill="#ffffff" fill-opacity="0.4"/>
+    <rect x="704" y="678" width="56" height="24" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3"/>
+    <rect x="780" y="680" width="500" height="20" rx="10" fill="#ffffff" fill-opacity="0.32"/>
+    <circle cx="676" cy="746" r="8" fill="#ffffff" fill-opacity="0.4"/>
+    <rect x="704" y="734" width="56" height="24" rx="6" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3"/>
+    <rect x="780" y="736" width="340" height="20" rx="10" fill="#ffffff" fill-opacity="0.26"/>
+  </g>
+</svg>
